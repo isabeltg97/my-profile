@@ -1,0 +1,119 @@
+/*Colors and fonts*/
+h1 {
+	color: #ED254E;
+	font-family: 'Allura', cursive;
+	font-size: 75px;
+	font-weight: bold;
+	margin: 15px auto;
+}
+
+h2 {
+	color: #F3E8EE;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 30px;
+	font-weight: lighter;
+	letter-spacing: 3px;
+	line-height: 5px;
+
+}
+
+p {
+	color: #34113F;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+}
+
+a {
+	text-decoration: none;
+	transition: 0.3s ease;
+	font-family: 'Playfair Display', serif;
+
+}
+
+a:hover {
+	color: yellow;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/*Custom design with class*/
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+	color: #F3E8EE;
+}
+
+@media (max-width:760px) {
+	.container {
+ 		width: 600px;
+ 	}
+}
+
+@media (max-width:500px) {
+	.container {
+ 		width: 400px;
+ 	}
+}
+
+.card-purple {
+	background-color: #ABA9BF;
+	padding: 40px;
+	box-shadow: 10px 10px 30px rgba(0,0,0,0.4);
+	border-radius: 5px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.card-purple:hover {
+	background-color: #7F7CAF;
+	opacity: 1;
+}
+
+.img-circle {
+	border-radius: 10%;
+	size: 30px;
+}
+
+.btn-pink {
+	background-color: #E59500;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+
+.btn-pink:hover {
+	background-color: #ED254E;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230,230,230);
+}
+
+.list-inline i:hover {
+	font-size: 50px;
+	color: #ED254E;
+}
+
+#introduction p {
+	margin: 35px;
+}
+
+
